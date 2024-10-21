@@ -1,21 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1.0"
-  <title>Frontend Crash Course</title>
-  <body>
-    <header>
-      <div>
-        <h2>writings.dev</h2>
-        <ul>
-          <li>categories</li>
-          <li>articles</li>
-          <li>about</li>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind of Eli</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="container">
+      <a href="#">Remember<span>That</span></a>
+      
+      <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open navigation">
+
+      <nav>
+        <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Exit navigation">
+        <ul class="primary-nav">
+          <li class="current"><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
         </ul>
+
+        <ul class="secondary-nav">
+          <li><a href="#">Contact</a></li>
+          <li class="go-premoum-cta"><a href="#">Go Premium</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="containe">
+      <div class="left-col">
+        <p class="subhead">It's Nitty &amp; Gritty</p>
+        <h1>A Task App That Doesn't Stink</h1>
+        
+        <div class="hero-cta">
+          <a class="primary-cta" href="#">Try for free</a>
+          <a class="watch-video-cta" href="#">
+            <img src="images/watch.svg" alt="Watch a video">Watch a video
+          </a>
+        </div>
       </div>
-      <img src="Logo.png" alt="logo" height="200" width="190" />
-      <h1>Writings for Developers</h1>
-      <h2>Curated collection of articles for busy developers</h2>
-    </header>
-  </body>
+
+      <img src="images/illustration.svg" alt="illustration" class="hero-img">
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="container">
+      <ul>
+        <li>Unlimited Tasks</li>
+        <li>SMS Task Reminder</li>
+        <li>Confetti Explosions upon Task Completions</li>
+        <li>Social Media Announcements</li>
+        <li>Real Time Collaboration</li>
+        <li>Other Awesome Features</li>
+      </ul>
+
+      <img src="images/holding-phone.jpg" alt="Person holding a phone">
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <div class="container">
+      <ul>
+        <li>
+          <img src="images/person.jpg" alt="A person">
+
+          <blockquote>"Lorem ipsum odor amet, consectetuer adipiscing elit."</blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+        <li>
+          <img src="images/person.jpg" alt="A person">
+
+          <blockquote>"Lorem ipsum odor amet, consectetuer adipiscing elit."</blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+        <li>
+          <img src="images/person.jpg" alt="A person">
+
+          <blockquote>"Lorem ipsum odor amet, consectetuer adipiscing elit."</blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-left">
+        <h2>Contact</h2>
+
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+          <input type="submit" value="Send message" class="send-message-cta">
+        </form>
+      </div>
+
+      <div class="contact-right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.02982610891!2d-122.4787995004312!3d37.75776068869128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1729542745334!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
